@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+    <title>   Al Fakher Ticaret Şirketi </title>
+    <style>
+      *{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+body {
+	background: url(//subtlepatterns.com/patterns/scribble_light.png);
+  font-family: Calluna, Arial, sans-serif;
+  min-height: 1000px;
+}
+#wrap{
+	width: 90%;
+	max-width: 1100px;
+	margin: 50px auto;
+}
+
+.columns_2 figure{
+   width:49%;
+   margin-right:1%;
+}
+.columns_2 figure:nth-child(2){
+	margin-right: 0;
+}
+.columns_3 figure{
+   width:32%;
+   margin-right:1%;
+}
+.columns_3 figure:nth-child(3){
+	margin-right: 0;
+}
+.columns_4 figure{
+   width:24%;
+   margin-right:1%;
+}
+.columns_4 figure:nth-child(4){
+	margin-right: 0;
+}
+.columns_5 figure{
+   width:19%;
+   margin-right:1%;
+}
+.columns_5 figure:nth-child(5){
+	margin-right: 0;
+}
+#columns figure:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform:scale(1.1);
+	transform: scale(1.1);
+
+}
+#columns:hover figure:not(:hover) {
+	opacity: 0.4;
+}
+div#columns figure {
+	display: inline-block;
+	background: #FEFEFE;
+	border: 2px solid #FAFAFA;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	padding: 15px;
+	padding-bottom: 5px;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+	opacity: 1;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+div#columns figure img {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+div#columns figure figcaption {
+  font-size: .9rem;
+  color: #444;
+  line-height: 1.5;
+  height:60px;
+  font-weight:600;
+  text-overflow:ellipsis;
+}
+
+a.button{
+  padding:10px;
+  background:salmon;
+  margin:10px;
+  display:block;
+  text-align:center;
+  color:#fff;
+  transition:all 1s linear;
+  text-decoration:none;
+  text-shadow:1px 1px 3px rgba(0,0,0,0.3);
+  border-radius:3px;
+  border-bottom:3px solid #ff6536;
+  box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+}
+a.button:hover{
+  background:#ff6536;
+  border-bottom:3px solid salmon;
+  color:#f1f2f3;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* ارتفاع الشاشة بالنسبة للعرض العرضي (viewport) بالكامل */
+}
+
+.h1 {
+    text-align: center; /* لضمان توسيط النص داخل العنصر */
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+/* whatsapp */
+
+
+.container-boton{
+    background-color: #25d366;
+    border: 2px solid #fff;
+    position: fixed;
+    z-index: 0;
+    border-radius: 40%;
+    bottom: 35px;
+    right: 25px;
+    padding: 12px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 50px;
+    transition: ease 3s;
+}
+.carousel-inner img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto; /* Resmi yatayda ortalar */
+}
+
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+@media screen and (max-width: 960px) { 
+  #columns figure { width: 24%; }
+}
+@media screen and (max-width: 767px) {
+  #columns figure { width:32%;}
+}
+@media screen and (max-width: 600px) {
+  #columns figure { width: 49%;}
+}
+@media screen and (max-width: 500px) {
+  #columns figure { width: 100%;}
+}
+    </style>
+</head>
+<body>
+    <body>
+      
+        <div class="container">
+            <h1 class="h1">  شركة الفاخر التجارية   </h1>
+        </div>
+        <div class="container mt-5">
+            
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Slayt Gösterisi İndikatörleri -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    
+                   
+                </ol>
+        
+                <!-- Slayt Gösterisi İçeriği -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/log.jpg" alt="Resim 1">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div id="wrap">
+        <div id="columns" class="columns_4">
+      <figure>
+      <img src="image/1.jpg">
+      <span class="price">MF001</span>
+      <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+        </figure>
+        
+        <figure>
+        <img src="image/2.jpg">
+        <span class="price">MF002</span>
+         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+        </figure>
+        
+      <figure>
+        <img src="image/3.jpg">
+        <span class="price">MF003</span>
+         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+        </figure>
+      
+        <figure>
+        <img src="image/4.jpg">
+        <span class="price">MF004</span>
+         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+        </figure>
+        
+       <figure>
+         <img src="image/5.jpg">
+         <span class="price">MF005</span>
+         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+        </figure>
+        
+       <figure>
+         <img src="image/6.jpg">
+       
+         <span class="price">MF006</span>
+         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+        </figure>
+      
+        <figure>
+        <img src="image/7.jpg">
+        <span class="price">MF007</span>
+         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+        </figure>	
+      
+       <figure>
+        <img src="image/8.jpg">
+        <span class="price">MF008</span>
+         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+        </figure>
+      
+        <figure>
+        <img src="image/9.jpg">
+        <span class="price">MF009</span>
+         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+        </figure>	
+        <figure>
+            <img src="image/10.jpg">
+            <span class="price">MF010</span>
+         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+            </figure>	
+            <figure>
+                <img src="image/11.jpg">
+                <span class="price">MF011</span>
+         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                </figure>	
+                <figure>
+                    <img src="image/12.jpg">
+                    <span class="price">MF012</span>
+         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                    </figure>	
+                    <figure>
+                        <img src="image/13.jpg">
+                        <span class="price">MF013</span>
+             <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                        </figure>
+                        <figure>
+                            <img src="image/22.jpeg">
+                            <span class="price">MF014</span>
+                 <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                            </figure>
+                            <figure>
+                                <img src="image/23.jpg">
+                                <span class="price">MF015</span>
+                     <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                </figure>
+                                <figure>
+                                    <img src="image/24.jpeg">
+                                    <span class="price">MF016</span>
+                         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                    </figure>
+                                    <figure>
+                                        <img src="image/25.jpg">
+                                        <span class="price">MF017</span>
+                             <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                        </figure>	
+                        <figure>
+                            <img src="image/14.jpg">
+                            <span class="price">MF018</span>
+                 <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                            </figure>	
+                            <figure>
+                                <img src="image/15.jpg">
+                                <span class="price">MF019</span>
+                     <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                </figure>	
+                                <figure>
+                                    <img src="image/16.jpg">
+                                    <span class="price">MF020</span>
+                         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                    </figure>	
+                                    <figure>
+                                        <img src="image/17.jpg">
+                                        <span class="price">MF021</span>
+                             <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                        </figure>	
+                                    </figure>	
+                                    <figure>
+                                        <img src="image/18.jpg">
+                                        <span class="price">MF022</span>
+                             <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                        </figure>	
+                                    </figure>	
+                                    <figure>
+                                        <img src="image/19.jpg">
+                                        <span class="price">MF023</span>
+                             <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                        </figure>	
+                                    </figure>	
+                                    <figure>
+                                        <img src="image/20.jpg">
+                                        <span class="price">MF024</span>
+                             <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                        </figure>	
+                                    </figure>	
+                                    <figure>
+                                        <img src="image/21.jpg">
+                                        <span class="price">MF025</span>
+                             <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                        </figure>	
+                                        <figure>
+                                            <img src="image/26.jpg">
+                                            <span class="price">MF026</span>
+                                 <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                            </figure>
+                                            <figure>
+                                                <img src="image/27.jpg">
+                                                <span class="price">MF027</span>
+                                     <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                                </figure>
+                                                <figure>
+                                                    <img src="image/28.jpg">
+                                                    <span class="price">MF028</span>
+                                         <a class="button" href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php">تواصل معنا</a>
+                                                    </figure>                                   
+    </div>
+    <div class="container-boton">
+        <a href="https://wa.me/905353248814?text=Quiero%20realizar%20un%20proyecto%20web%20php" target="_blank">
+            <img class="boton" src="image/what.png" alt="">
+        </a>
+    <!-- Bootstrap JS ve jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
